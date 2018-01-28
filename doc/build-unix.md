@@ -12,6 +12,7 @@ To Build
 ---------------------
 
 	cd src/
+	make obj			# catching exception opening dependency file
 	make -f makefile.unix		# Headless adcoin
 
 See readme-qt.rst for instructions on building AdCoin-Qt, the graphical user interface.
