@@ -48,7 +48,7 @@ Licenses of statically linked libraries:
 -  GCC           4.3.3
 -  OpenSSL       1.0.1c
 -  Berkeley DB   4.8.30.NC
--  Boost         1.37
+-  Boost         1.63
 -  miniupnpc     1.6
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -71,8 +71,8 @@ for other Ubuntu & Debian:
 
 	sudo apt-get install libdb4.8-dev
 	sudo apt-get install libdb4.8++-dev
-	sudo apt-get install libboost1.37-dev
- (If using Boost 1.37, append -mt to the boost libraries in the makefile)
+	sudo apt-get install libboost1.63-dev
+ (If using Boost 1.63, append -mt to the boost libraries in the makefile)
 
 Optional:
 
