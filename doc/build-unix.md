@@ -12,7 +12,8 @@ To Build
 ---------------------
 
 	cd src/
-	make -f makefile.unix		# Headless adcoin
+	chmod +x leveldb/build_detect_platform		# fix : bin/sh: 1: ./build_detect_platform: Permission denied
+	make -f makefile.unix				# Headless adcoin
 
 See readme-qt.rst for instructions on building AdCoin-Qt, the graphical user interface.
 
